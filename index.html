@@ -111,7 +111,7 @@
     <section class="w-11/12 mx-auto mb-20">
       <img class="hidden lg:inline" src="assets/Vector.png" alt="">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-3">
-        <div class="space-y-6">
+        <div class="space-y-6 flex flex-col items-center md:items-start">
           <a href=""><button class="bg-white px-5 py-2 rounded-3xl"><i class="fa-solid fa-arrow-right inline opacity-80 mr-1"></i> About Us</button></a>
           <h3 class="font-extrabold text-4xl text-center md:text-start">We design thoughtful, liveable spaces</h3>
           <p class="font-medium text-[#494949] text-center md:text-start">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
@@ -132,7 +132,7 @@
         </div>
 
         <div>
-          <img src="assets/Rectangle.png" alt="">
+          <img class="w-full" src="assets/Rectangle.png" alt="">
         </div>
       </div>
     </section>
@@ -170,7 +170,7 @@
     </section>
 
     <!-- latest works section -->
-    <section class="bg-white mb-20">
+    <section class="bg-white">
       <div class="w-11/12 mx-auto py-20">
         <!-- text content -->
         <div class="flex flex-col justify-center items-center space-y-3 md:w-2/3 mx-auto text-center">
@@ -234,7 +234,7 @@
     </section>
 
     <!-- let's connect section -->
-     <section class="mb-20 form-bg">
+     <section class=" form-bg">
         <div class="w-11/12 mx-auto py-20 lg:px-20">
           <div class="flex flex-col justify-center items-center space-y-3 md:w-2/3 mx-auto text-center mb-10">
             <a href=""><button class="bg-lime-100 px-5 py-2 rounded-3xl"><i class="fa-solid fa-arrow-right inline opacity-80 mr-1"></i> Let's connect</button></a>
@@ -257,8 +257,28 @@
      </section>
   </main>
 
-  <footer>
-
+  <footer class="bg-black">
+    <div class="flex flex-col items-center justify-center text-center lg:px-60 py-16">
+      <a href="" class="btn btn-ghost text-3xl font-extrabold text-white"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" class="size-7 bg-lime-400 rounded-full p-1">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+      </svg>
+      Rinterio
+     </a>
+     <p class="text-[#737373] font-medium mt-4 mb-10">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+     <ul class="flex flex-col md:flex-row gap-4 md:space-x-20 text-[#E9E9E9] font-medium">
+        <li><a href="">Home</a></li> 
+        <li><a href="">Services</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Blogs</a></li>
+        <li><a href="">Contact Us</a></li>
+     </ul>
+     <a class="btn rounded-3xl bg-lime-400 font-extrabold border-none mt-9">Book Consult <svg xmlns="http://www.w3.org/2000/svg"
+      fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+      class="size-6 bg-black text-white rounded-full p-1">
+      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+    </svg></a>
+    </div>
   </footer>
 </body>
 
